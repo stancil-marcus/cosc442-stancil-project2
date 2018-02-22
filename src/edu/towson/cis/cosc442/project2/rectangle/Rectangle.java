@@ -26,6 +26,7 @@ public class Rectangle {
 	 * @return the area
 	 */
 	public Double getArea() {
+		pointsToString()
 		return Math.abs((p2.x - p1.x) * (p2.y - p1.y));
 	}
 	
@@ -35,6 +36,15 @@ public class Rectangle {
 	 * @return the diagonal
 	 */
 	public Double getDiagonal() {
+		pointsToString()
 		return Math.sqrt(Math.pow((p2.x - p1.x), 2) + Math.pow((p2.y - p1.y), 2));
+	}
+	
+	public void pointsToString()
+	{
+		 System.out.println("This rectangles points are :" + "("+ p1.x + "," + p1.y
+				+ ")" + " and " + "("+ p2.x + "," + p2.y
+				+ ")" );
+		 
 	}
 }
