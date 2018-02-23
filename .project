@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>VendingMachine</name>
+=======
+<<<<<<< HEAD
+	<name>Rectangle</name>
+=======
+	<name>Fibonacci</name>
+>>>>>>> branch 'master' of https://github.com/stancil-marcus/cosc442-stancil-project2
+>>>>>>> branch 'master' of https://github.com/stancil-marcus/cosc442-stancil-project2
 	<comment></comment>
 	<projects>
 	</projects>
